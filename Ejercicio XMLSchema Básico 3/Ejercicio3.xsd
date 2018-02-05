@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="persona">
+		<xs:complexType>
+			<xs:sequence>
+			<xs:element name="datos">
+				<xs:complexType>
+					<xs:sequence>
+					<xs:element name="nombre" type="xs:string" use="required"/>
+					<xs:element name="apellidos" type="xs:string" use="required"/>
+					<xs:element name="dni" type="xs:integer" use="required"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="comentario" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

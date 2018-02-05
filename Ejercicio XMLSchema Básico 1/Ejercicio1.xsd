@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="xml1.xml">
+	<xs:element name="nota">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="para" type="string" use="required"/>
+				<xs:element name="de" type="string" use="required"/>
+				<xs:element name="titulo" type="string" use="required"/>
+				<xs:element name="para" type="string" use="required"/>
+				<xs:element name="recordatorio" type="string" use="required"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
