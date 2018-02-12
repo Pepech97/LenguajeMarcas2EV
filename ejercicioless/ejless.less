@@ -1,0 +1,59 @@
+@colorcajas: #723131;//Variables
+@colorcondic:red;
+
+.cajasid(@pixelesmarg: 20px){//Mixin con parametros
+	margin-top: @pixelesmarg;
+	margin-left: @pixelesmarg;
+	background-color: @colorcajas * #003300;//Funciones
+	width: 300px;
+	height: 1000px;
+}
+.mixinCondicion() when (@colorcondic = red) { //Mixin con condicion y operador logico
+  background-color: red+green;//Operadores aritmeticos
+ }
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+video{
+	margin-top: 20px;
+	width: 250px;
+	height: 250px;
+}
+div.estructura{
+		background-color: #bcbcbc;
+		width: 100%;
+		height:100%;
+	}
+div{//reglas internas
+	.cajaderecha{
+		.cajasid;
+		float: right;
+	}
+	.cajaizquierda{
+		.cajasid;
+		float: left;
+	}
+
+	.cajacentral{
+		.mixinCondicion;
+		text-align: center;
+		width:1200px;
+		position:absolute;
+		left:50%;
+		margin-left:-600px;
+	}
+	
+	.encabezado{
+		text-align: center;
+	}
+	.pie{
+		margin: auto;
+		background-color: @colorcajas + 3;
+		width: 100%;
+		height: 20px;
+		clear: both;
+		text-align: center;
+	}
+}
