@@ -1,132 +1,132 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <resultado xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="bomberos.xsd">
-<totalCount>13</totalCount>
-<start>0</start>
-<rows>13</rows>
-<fecha>2018-02-19T00:00:00Z</fecha>
-<tipo>20</tipo>
-<result>
-<servicio-bomberos>
-<fecha>2018-02-19T08:13:30Z</fecha>
-<tipoSiniestro>Socorro a víctimas</tipoSiniestro>
-<direccion>VICENTE,ANDRES(MOSEN) (Zaragoza)</direccion>
-<duracion>1 h 9 m</duracion>
-<recursos>
-<recursos>Ambulancia</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T09:03:27Z</fecha>
-<tipoSiniestro>Accidente de tráfico</tipoSiniestro>
-<direccion>AGUSTIN, PASEO MARIA (Zaragoza)</direccion>
-<duracion>0 h 33 m</duracion>
-<recursos>
-<recursos>Ambulancia</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T09:22:12Z</fecha>
-<tipoSiniestro>Socorro a víctimas</tipoSiniestro>
-<direccion>SAN JOSE, AVENIDA DE (Zaragoza)</direccion>
-<duracion>1 h 13 m</duracion>
-<recursos>
-<recursos>Ambulancia</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T09:33:00Z</fecha>
-<tipoSiniestro>
-Incendio en un edificio de viviendas hasta nueve plantas
-</tipoSiniestro>
-<direccion>JUAN PABLO II (Zaragoza)</direccion>
-<duracion>0 h 55 m</duracion>
-<recursos>
-<recursos>Ambulancia</recursos>
-<recursos>Autoescala automática 30 m.</recursos>
-<recursos>Unidad mando y comunicaciones</recursos>
-<recursos>Bomba urbana ligera</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T09:56:19Z</fecha>
-<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
-<direccion>BROTO, VALLE DE (Zaragoza)</direccion>
-<duracion>3 h 8 m</duracion>
-<recursos>
-<recursos>Furgón de equipos acuáticos</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T10:02:03Z</fecha>
-<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
-<direccion>PALACIO, DEL CST (Casetas)</direccion>
-<duracion>0 h 0 m</duracion>
-<recursos>
-<recursos>Bomba rural mixta</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T10:46:06Z</fecha>
-<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
-<direccion>BROTO, VALLE DE (Zaragoza)</direccion>
-<duracion>0 h 5 m</duracion>
-<recursos>
-<recursos>Unidad mando y comunicaciones</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T11:01:25Z</fecha>
-<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
-<direccion>RAMON Y CAJAL, S. (Zaragoza)</direccion>
-<duracion>1 h 6 m</duracion>
-<recursos>
-<recursos>Bomba urbana ligera</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T11:54:02Z</fecha>
-<tipoSiniestro>Socorro a víctimas</tipoSiniestro>
-<direccion>SAN FRANCISCO, PLAZA (Zaragoza)</direccion>
-<duracion>1 h 3 m</duracion>
-<recursos>
-<recursos>Ambulancia</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T12:04:41Z</fecha>
-<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
-<direccion>VALIMAÑA, CAMINO DE (Zaragoza)</direccion>
-<duracion>0 h 20 m</duracion>
-<recursos>
-<recursos>Unidad de personal y carga</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T14:02:35Z</fecha>
-<tipoSiniestro>Gases y productos peligrosos</tipoSiniestro>
-<direccion>OSSAU, JOSE PELLICER (Zaragoza)</direccion>
-<duracion>0 h 41 m</duracion>
-<recursos>
-<recursos>Unidad mando y comunicaciones</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T14:20:03Z</fecha>
-<tipoSiniestro>Gases y productos peligrosos</tipoSiniestro>
-<direccion>CASTILLA (Zaragoza)</direccion>
-<duracion>0 h 13 m</duracion>
-<recursos>
-<recursos>Bomba urbana ligera</recursos>
-</recursos>
-</servicio-bomberos>
-<servicio-bomberos>
-<fecha>2018-02-19T10:04:41Z</fecha>
-<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
-<direccion>BROTO, VALLE DE (Zaragoza)</direccion>
-<duracion>0 h 1 m</duracion>
-<recursos>
-<recursos>Autogrua pesada</recursos>
-</recursos>
-</servicio-bomberos>
-</result>
+	<totalCount>13</totalCount>
+	<start>0</start>
+	<rows>13</rows>
+	<fecha>2018-02-19T00:00:00Z</fecha>
+	<tipo>20</tipo>
+	<result>
+		<servicio-bomberos>
+			<fecha>2018-02-19T08:13:30Z</fecha>
+			<tipoSiniestro>Socorro a víctimas</tipoSiniestro>
+			<direccion>VICENTE,ANDRES(MOSEN) (Zaragoza)</direccion>
+			<duracion>1 h 9 m</duracion>
+			<recursos>
+				<recursos>Ambulancia</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T09:03:27Z</fecha>
+			<tipoSiniestro>Accidente de tráfico</tipoSiniestro>
+			<direccion>AGUSTIN, PASEO MARIA (Zaragoza)</direccion>
+			<duracion>0 h 33 m</duracion>
+			<recursos>
+				<recursos>Ambulancia</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T09:22:12Z</fecha>
+			<tipoSiniestro>Socorro a víctimas</tipoSiniestro>
+			<direccion>SAN JOSE, AVENIDA DE (Zaragoza)</direccion>
+			<duracion>1 h 13 m</duracion>
+			<recursos>
+				<recursos>Ambulancia</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T09:33:00Z</fecha>
+			<tipoSiniestro>
+			Incendio en un edificio de viviendas hasta nueve plantas
+			</tipoSiniestro>
+			<direccion>JUAN PABLO II (Zaragoza)</direccion>
+			<duracion>0 h 55 m</duracion>
+			<recursos>
+				<recursos>Ambulancia</recursos>
+				<recursos>Autoescala automática 30 m.</recursos>
+				<recursos>Unidad mando y comunicaciones</recursos>
+				<recursos>Bomba urbana ligera</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T09:56:19Z</fecha>
+			<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
+			<direccion>BROTO, VALLE DE (Zaragoza)</direccion>
+			<duracion>3 h 8 m</duracion>
+			<recursos>
+				<recursos>Furgón de equipos acuáticos</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T10:02:03Z</fecha>
+			<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
+			<direccion>PALACIO, DEL CST (Casetas)</direccion>
+			<duracion>0 h 0 m</duracion>
+			<recursos>
+				<recursos>Bomba rural mixta</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T10:46:06Z</fecha>
+			<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
+			<direccion>BROTO, VALLE DE (Zaragoza)</direccion>
+			<duracion>0 h 5 m</duracion>
+			<recursos>
+				<recursos>Unidad mando y comunicaciones</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T11:01:25Z</fecha>
+			<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
+			<direccion>RAMON Y CAJAL, S. (Zaragoza)</direccion>
+			<duracion>1 h 6 m</duracion>
+			<recursos>
+				<recursos>Bomba urbana ligera</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T11:54:02Z</fecha>
+			<tipoSiniestro>Socorro a víctimas</tipoSiniestro>
+			<direccion>SAN FRANCISCO, PLAZA (Zaragoza)</direccion>
+			<duracion>1 h 3 m</duracion>
+			<recursos>
+				<recursos>Ambulancia</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T12:04:41Z</fecha>
+			<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
+			<direccion>VALIMAÑA, CAMINO DE (Zaragoza)</direccion>
+			<duracion>0 h 20 m</duracion>
+			<recursos>
+				<recursos>Unidad de personal y carga</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T14:02:35Z</fecha>
+			<tipoSiniestro>Gases y productos peligrosos</tipoSiniestro>
+			<direccion>OSSAU, JOSE PELLICER (Zaragoza)</direccion>
+			<duracion>0 h 41 m</duracion>
+			<recursos>
+				<recursos>Unidad mando y comunicaciones</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T14:20:03Z</fecha>
+			<tipoSiniestro>Gases y productos peligrosos</tipoSiniestro>
+			<direccion>CASTILLA (Zaragoza)</direccion>
+			<duracion>0 h 13 m</duracion>
+			<recursos>
+				<recursos>Bomba urbana ligera</recursos>
+			</recursos>
+		</servicio-bomberos>
+		<servicio-bomberos>
+			<fecha>2018-02-19T10:04:41Z</fecha>
+			<tipoSiniestro>Prácticas, pruebas</tipoSiniestro>
+			<direccion>BROTO, VALLE DE (Zaragoza)</direccion>
+			<duracion>0 h 1 m</duracion>
+			<recursos>
+				<recursos>Autogrua pesada</recursos>
+			</recursos>
+		</servicio-bomberos>
+	</result>
 </resultado>
