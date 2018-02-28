@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ticket">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="datos_ticket">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fecha_hora" type="xs:dateTime"/>
+              <xs:element name="precio_total">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cantidad_sin_iva" type="xs:int"/>
+                    <xs:element name="cantidad_iva" type="xs:int"/>
+                    <xs:element name="pvp_total" type="xs:int"/>
+                  </xs:sequence>
+                  <xs:attribute name="moneda" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="forma_pago">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="numero" type="xs:string"/>
+                      <xs:attribute name="tipo" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="cliente" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="datos_comercio">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="direccion" type="xs:string"/>
+              <xs:element name="cif" type="xs:string"/>
+              <xs:element name="telefono" type="xs:int"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="datos_compra">
+          <xs:complexType>
+            <xs:sequence>
+            <xs:element name="lineas_compra">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="nombre_articulo" type="xs:string"/>
+                  <xs:element name="cantidad" type="xs:int"/>
+                  <xs:element name="precio_unitario" type="xs:int"/>
+                  <xs:element name="iva" type="xs:int"/>
+                  <xs:element name="pvp" type="xs:int"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+              
+        
+        
+ 
+        
