@@ -1,0 +1,52 @@
+﻿<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="catalogoLibro">
+  <xs:complexType>
+      <xs:sequence>
+          <xs:element ref="libro" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="libro">
+	<xs:complexType >
+	    <xs:sequence>
+        <xs:element name = "titulo" type = "tipoNombre"/>
+        <xs:element name = "autor" type = "tipoNombre" maxOccurs="unbounded"/>
+        <xs:element name = "fecha" type = "tipoFecha"/>
+        <xs:element name = "ISBN" type = "xs:string"/>
+        <xs:element name = "editor" type = "tipoNombre"/>
+		</xs:sequence>	
+    <xs:attribute ref="categoria" use="required"/>
+    <xs:attribute ref="enstock"/>
+	  <xs:attribute name="revisor" type="xs:string" default=""/>
+	</xs:complexType>
+	</xs:element>
+
+<xs:simpleType name="tipoNombre">
+	<xs:restriction base="xs:string">
+		<xs:minLength value="0"/>
+		<xs:maxLength value="100"/>
+	</xs:restriction>
+</xs:simpleType>
+	
+<xs:complexType name="tipoFecha">
+	<xs:sequence>
+		<xs:element name = "mes" type = "xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name = "anyo" type = "xs:integer"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:attribute name="categoria">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="autobiografia"/>
+			<xs:enumeration value="noficcion"/>
+			<xs:enumeration value="ficcion"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:attribute>
+<xs:attribute name="enstock" type="xs:boolean" default="false"/>
+
+</xs:schema>
